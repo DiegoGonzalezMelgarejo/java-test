@@ -4,7 +4,6 @@ import com.test.diego.application.dto.FactorialDto;
 import com.test.diego.application.usecase.FactorialUseCase;
 import org.springframework.stereotype.Component;
 
-import java.math.BigInteger;
 import java.util.Optional;
 
 @Component

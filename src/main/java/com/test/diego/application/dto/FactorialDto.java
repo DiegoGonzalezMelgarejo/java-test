@@ -8,5 +8,5 @@ import java.math.BigInteger;
 @Getter
 @Builder
 public class FactorialDto {
-    private BigInteger factorial;
+    private final BigInteger factorial;
 }

@@ -1,0 +1,1 @@
+insert into clients (identification_card, identification_type, first_name, middle_name, last_name, second_sur_name, phone, address, city) values ('23445322', 'cedula_de_ciudadania', 'Diego', 'Alirio', 'Gonzalez', 'Melgarejo', '3151234567', '123 Main St', 'Cucuta');
