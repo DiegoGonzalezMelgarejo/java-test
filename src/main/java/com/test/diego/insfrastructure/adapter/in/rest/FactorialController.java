@@ -8,15 +8,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.math.BigInteger;
-
 @RestController
 @RequestMapping("/factorial")
-public class factorialController {
+public class FactorialController {
 
     private final FactorialHandler factorialHandler;
 
-    public factorialController(FactorialHandler factorialHandler) {
+    public FactorialController(FactorialHandler factorialHandler) {
         this.factorialHandler = factorialHandler;
     }
     @PostMapping("/{numero}")
